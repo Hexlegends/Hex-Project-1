@@ -1,0 +1,50 @@
+<head>
+  <title>What Do You Think?</title>
+</head>
+
+<body>
+  <main>
+    <h1>Rate Your Favorite Artists!</h1>
+    <form action="/artists" method="post">
+      <section>
+        <h2>John Mayer</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8uCpHl9DKDXQH_M0decWLIa5dnmaVwsZlXA&s"
+          alt="cmon bro listen to john mayer">
+        <fieldset>
+          <legend>Rate! (1-10)</legend>
+          <label for="mayer-rating">Your Rating:</label>
+          <input type="number" name="mayer-rating" id="mayer-rating" min="1" max="10">
+          <br>
+          <label for="mayer-thoughts">Why?</label>
+          <input type="text" name="mayer-thoughts" id="mayer-thoughts" placeholder="He is so blah blah blah...">
+        </fieldset>
+      </section>
+      <section>
+        <h2>Arctic Monkeys</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlopw6YzUUd5VV5dsS_y-0oxV5uZ9jiquszQ&s"
+          alt="arctic monkeys">
+        <fieldset>
+          <legend>Rate! (1-10)</legend>
+          <label for="arctic-rating">Your Rating:</label>
+          <input type="number" name="arctic-rating" id="arctic-rating" min="1" max="15">
+          <br>
+          <label for="arctic-thoughts">Why?</label>
+
+          <input type="text" name="arctic-thoughts" id="arctic-thoughts" placeholder="They are so blah blah blah...">
+        </fieldset>
+      </section>
+      <section>
+        <h2>The Strokes</h2>
+        <img src="strokes.jpg">
+        <fieldset>
+          <legend>Rate! (1-10)</legend>
+          <label for="strokes-rating">Your Rating:</label>
+          <input type="number" name="strokes-rating" id="strokes-rating" min="1" max="10">
+          <br>
+          <label for="strokes-thoughts">Why?</label>
+          <input type="text" name="strokes-thoughts" id="strokes-thoughts" placeholder="They are so blah blah blah...">
+        </fieldset>
+      </section>
+      <button type="submit">Submit</button>
+  </main>
+</body>
