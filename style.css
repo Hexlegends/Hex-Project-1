@@ -8,6 +8,10 @@ body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qNwtQ82PxP2X_mff16TYjzD_uYgBrdYmLQ&s);
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
 .everything {
     background-color: rgb(97, 156, 250);
     border: solid, black;
