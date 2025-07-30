@@ -27,6 +27,7 @@ fieldset {
     width: 60%;
     margin: 0 auto;
     text-align: center;
+    border: 2px black;
 }
 
 label, textarea {
@@ -36,5 +37,5 @@ label, textarea {
 }
 
 .rating {
-    font-size: 30px;
+    font-size: 20px;
 }
