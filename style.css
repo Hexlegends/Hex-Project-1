@@ -4,14 +4,17 @@ text-align: center;
 }
 
 body {
-    padding: 50px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qNwtQ82PxP2X_mff16TYjzD_uYgBrdYmLQ&s);
 }
 
 img {
     display: block;
     margin: 0 auto;
-    border: solid, black;
+    border: solid black;
     border-radius: 25px;
 }
 .everything {
