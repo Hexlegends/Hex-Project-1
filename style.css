@@ -34,3 +34,7 @@ label, textarea {
     margin: 10px auto;
     width: 80%;
 }
+
+.rating {
+    font-size: 30px;
+}
